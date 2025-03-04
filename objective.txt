@@ -1,0 +1,12 @@
+TODO's in
+--server\.env.EXAMPLE--
+
+--server\src\routes\index.ts--
+
+--server\src\routes\auth-routes.ts--
+
+--server\src\middleware\auth.ts--
+
+--client\src\utils\auth.ts--
+
+--client\src\api\authAPI.tsx--
