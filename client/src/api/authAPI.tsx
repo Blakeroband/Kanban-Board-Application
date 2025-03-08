@@ -1,11 +1,11 @@
 import { UserLogin } from "../interfaces/UserLogin";
 
-
+  // TODO: make a POST request to the login route
 // This function will make a POST request to the login route
 // and return the response data if successful
 const login = async (userInfo: UserLogin) => {
   try {
-    const response = await fetch('/login', {
+    const response = await fetch('/auth/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -22,7 +22,7 @@ const login = async (userInfo: UserLogin) => {
     console.error(error);
     throw new Error('An error occurred while logging in');
   }
-  // TODO: make a POST request to the login route
+
 }
 
 
