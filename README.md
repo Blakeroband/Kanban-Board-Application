@@ -1,14 +1,32 @@
-## Kanban board
+# Kanban Board
 
-## DESCTIPTION
-this web application allows the use of a Kanban board for agile teams.
+  https://img.shields.io/badge/License-MIT-yellow.svg
 
-### Server Setup
-npm i to install dependancies
+  ## Description
+  this project lets the user add tickets to a board of, todo, in progress, and finished sections. the user can create, read and delete the tickets at their choosing.
 
-npm run build to compile from TS to JS
+  ## Table of Contents
+  - [installation](#installation)
+  - [contributions](#contributions)
+  - [usage](#usage)
+  - [test](#test)
+  - [license](#license)
 
-npm run start to start up the server on port 3001
+  ## installation
+  to install this project download the code from github, in the root folder use npm run build, npm run seed, and npm run start:dev to launch the application
 
-## CONTRIBUTIONS
-Github CoPilot, Tristain Persaud
+  ## contributions
+  Github Copilot, Tristain persaud, Jacobus Berghoefer
+
+  ## usage
+  to use this application log in using the login button and inputting seeded data. then you have free range to change the boards as you see fit.
+  
+  ## test
+  run build, see, and start to test the application
+
+  ## license
+  MIT license: 
+https://opensource.org/licenses/MIT
+  
+  ## questions
+  feel free to visit my github https://github.com/Blakeroband
